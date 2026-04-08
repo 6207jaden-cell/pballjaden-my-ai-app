@@ -48,3 +48,13 @@ This project generates **AI predictions** on various topics, including basic top
 ```bash
 git clone https://github.com/6207jaden-cell/pballjaden-my-ai-app.git
 cd pballjaden-my-ai-app
+npm install
+PORT=3000
+MONGO_URI=your_mongodb_uri
+STRIPE_SECRET=your_stripe_secret_key
+STRIPE_PRICE_ID=your_stripe_price_id
+STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+DISCORD_TOKEN=your_discord_bot_token
+DISCORD_CHANNEL_ID=your_discord_channel_id
+JWT_SECRET=supersecret
+node app.js
