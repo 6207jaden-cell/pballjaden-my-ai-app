@@ -58,3 +58,4 @@ DISCORD_TOKEN=your_discord_bot_token
 DISCORD_CHANNEL_ID=your_discord_channel_id
 JWT_SECRET=supersecret
 node app.js
+http://localhost:3000
